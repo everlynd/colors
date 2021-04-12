@@ -1,0 +1,235 @@
+@media screen and (min-width: 1920px) {
+  .wrap {
+    width: 1920px !important;
+  }
+}
+
+@media screen and (max-width: 1385px) {
+  .container {
+    width: 1385px;
+  }
+  .header__nav {
+    margin-left: 1em !important;
+    transition: 0.5s;
+  }
+  .phone {
+    white-space: nowrap;
+  }
+  .header-phone__block {
+    margin-right: 1em !important;
+    transition: 0.5s;
+  }
+  .bullets {
+    left: 45% !important;
+    transition: 0.3s;
+  }
+}
+
+@media screen and (max-width: 1066px) {
+  .container {
+    width: 1066px;
+  }
+  aside {
+    margin: 0px 2rem 0 0 !important;
+    transition: 0.5s;
+  }
+
+  .header__nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 96%;
+    padding: 1rem !important;
+    margin-left: 0em !important;
+    background-color: #fff;
+    z-index: 5;
+    .close-btn {
+      display: block !important;
+      margin-right: -5rem;
+    }
+  }
+  .header__burger {
+    margin-right: 5rem;
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 14px;
+    span {
+      position: absolute;
+      background-color: black;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      top: 6px;
+    }
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+      background-color: black;
+      width: 100%;
+      height: 2px;
+      left: 0;
+    }
+    &::before {
+      top: 0;
+    }
+    &::after {
+      bottom: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 767px;
+  }
+  .mainSection {
+    padding: 0 0px 0 10px !important;
+  }
+  .wrap {
+    display: none !important;
+  }
+  aside {
+    display: none !important;
+  }
+  .mobile-filter {
+    display: block !important;
+  }
+  .mobile-none {
+    display: none !important;
+  }
+
+  .header__burger {
+    margin-right: 4rem !important;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .container {
+    width: 668px;
+  }
+  .header-phone__block {
+    display: none !important;
+  }
+  .header__nav {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 609px) {
+  .img__container {
+    width: 100% !important;
+    height: 100% !important;
+    img {
+      width: 156px;
+      height: 156px;
+    }
+  }
+  .basket {
+    width: 90vw !important;
+    padding: 20px 30px 0px 30px !important;
+    .footer-btn {
+      button {
+        padding: 20px 30px 20px 30px !important;
+      }
+    }
+    .close {
+      border: none !important;
+      margin-left: 55% !important;
+    }
+    .btns__container {
+      flex-direction: column;
+      .close-btn {
+        margin: 0 !important;
+      }
+    }
+  }
+  .cart__item {
+    padding-bottom: 25px !important;
+    .img__container {
+      line-height: 0 !important;
+    }
+    button {
+      padding: 0px 12px 0px 12px !important;
+      font-size: 20px !important;
+      background: #f2f2f2 !important;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .mobile__heading {
+    // display: flex !important;
+  }
+  .mainSection {
+    flex-direction: column;
+    margin-top: 50px !important;
+  }
+  .info__container {
+    margin-bottom: 1rem !important;
+    padding: 23px 6px 5px 10px !important;
+  }
+
+  .select {
+    width: 184px !important;
+  }
+  .header__logo a {
+    font-size: 22px !important;
+  }
+  .container {
+    width: 480px;
+  }
+  header {
+    padding: 29px 20px 22px 20px !important;
+    position: relative;
+    // border-bottom: 1px solid #ccc;
+    &::before {
+      content: "";
+      position: absolute;
+      background-color: #ccc;
+      width: 325px;
+      height: 1px;
+      bottom: 1px;
+    }
+  }
+
+  .header__nav {
+    flex-direction: column !important;
+  }
+
+  .search__icon {
+    display: none !important;
+  }
+  .profile__icon {
+    display: none !important;
+  }
+  .heart__icon {
+    display: none !important;
+  }
+  aside {
+  }
+  .header__burger {
+    margin-right: 90px !important;
+  }
+  .header__logo a:after {
+    left: 91px !important;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .cart__section {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .header__icons div {
+    margin: 0 0px !important;
+  }
+  .header__burger {
+    margin-right: 70px !important;
+  }
+  .select-title {
+    padding: 0 0 0 30px !important;
+  }
+  .container {
+    width: 370px;
+  }
+}
